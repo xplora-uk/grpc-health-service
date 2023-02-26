@@ -1,0 +1,39 @@
+{
+  "name": "@xplora-uk/grpc-health-service",
+  "version": "1.0.0",
+  "description": "gRPC Health service with Check feature",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "test:coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xplora-uk/grpc-health-service.git"
+  },
+  "keywords": [
+    "grpc",
+    "health",
+    "service",
+    "check"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xplora-uk/grpc-health-service/issues"
+  },
+  "homepage": "https://github.com/xplora-uk/grpc-health-service#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.11",
+    "@grpc/proto-loader": "^0.7.5"
+  }
+}

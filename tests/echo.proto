@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package grpc.echo.v1;
+
+service EchoService {
+  rpc Echo (EchoRequest) returns (EchoReply) {}
+}
+
+message EchoRequest {
+  string data = 1;
+}
+
+message EchoReply {
+  string data = 1;
+}
