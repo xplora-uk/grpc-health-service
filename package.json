@@ -1,6 +1,6 @@
 {
   "name": "@xplora-uk/grpc-health-service",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "gRPC Health service with Check feature",
   "main": "lib/index.js",
   "type": "commonjs",
@@ -21,7 +21,7 @@
     "service",
     "check"
   ],
-  "author": "Haci Murat Yaman",
+  "author": "Xplora R&D Team",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xplora-uk/grpc-health-service/issues"
@@ -35,5 +35,8 @@
   "dependencies": {
     "@grpc/grpc-js": "^1.8.11",
     "@grpc/proto-loader": "^0.7.5"
+  },
+  "engines": {
+    "node": ">=18.16.0"
   }
 }
